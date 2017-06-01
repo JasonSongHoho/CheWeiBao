@@ -1,0 +1,45 @@
+<!--item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- Id-->
+    <TextView
+        android:id="@+id/carid_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#00BEEE"
+        />
+    <!-- 名称 -->
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00BEEE"
+        android:layout_weight="1.0" />
+    <!-- 车主 -->
+    <TextView
+        android:id="@+id/owner_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00BEEE"
+        android:layout_weight="1.0" />
+    <!-- 地址 -->
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00BEEE"
+        android:layout_weight="3.0" />
+    <!-- 价格 -->
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00BEEE"
+        android:layout_weight="1.0" />
+
+</LinearLayout>

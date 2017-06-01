@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cheweibao.jason.com.cheweibao.LoginActivity">
+
+    <!--android:id="@+id/password"-->
+
+    <EditText
+        android:id="@+id/check_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="再次验证密码"
+        android:imeActionLabel="验证"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/check_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="昵称"
+        android:imeActionLabel="验证"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/check_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="性别"
+        android:imeActionLabel="验证"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/check_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="城市"
+        android:imeActionLabel="验证"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/check_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号"
+        android:imeActionLabel="验证"
+        android:imeOptions="actionUnspecified"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/check_carNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="车牌号"
+        android:imeActionLabel="验证"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+
+    <Button
+        android:id="@+id/check_password_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="验证"
+        android:textStyle="bold" />
+</LinearLayout>
